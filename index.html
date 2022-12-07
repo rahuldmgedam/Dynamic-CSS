@@ -38,16 +38,15 @@
 
         <input type='range' id='rangebox' min='10' max='100' onchange='onChangeHandler()'>
 
-         <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
+
+        <button type="button" id="underline" onclick="onDecorationHandler()" class="btn btn-info">Info</button>
  
         <button type="button" class="btn btn-dark" id="bold" onclick="onBoldHandler()">bold</button>
-        <button id="italic" onclick="onItalicHandler()" class="btn-btn-warning">italic</button>
-        <button id="underline" onclick="onDecorationHandler()" class="btn-btn-info">underline</button>
+        
+        <button id="italic" onclick="onItalicHandler()" type="button" class="btn btn-danger">italic</button>
+        
+     
+        
         <select id="list" onchange="onFontFamilyHandler()" class="btn-btn-danger"></select>
         <div id="getProps" onclick="setHandler()">Set CSS Properties</div>
     </div>
